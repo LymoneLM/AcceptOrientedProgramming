@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int T;int temp;
+    cin>>T;
+    for(int i=0;i<T;i++)
+    {
+        cin>>temp;
+        switch(temp)
+        {
+           
+        }
+    }
+
+    return 0;
+}
