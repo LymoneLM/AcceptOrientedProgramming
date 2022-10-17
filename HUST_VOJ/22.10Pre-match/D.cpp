@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!";
+    srand(time(0));
+    cout<<rand()%101;
     return 0;
 }
