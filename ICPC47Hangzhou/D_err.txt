@@ -1,0 +1,120 @@
+a.cpp: In function ‘bool special1()’:
+a.cpp:11:12: error: reference to ‘data’ is ambiguous
+         if(data[i]*2!=data[0])
+            ^~~~
+a.cpp:3:16: note: candidates are: std::vector<double> data
+ vector<double> data;
+                ^~~~
+In file included from /usr/include/c++/7/string:51:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from a.cpp:1:
+/usr/include/c++/7/bits/range_access.h:318:5: note:                 template<class _Tp> constexpr const _Tp* std::data(std::initializer_list<_Tp>)
+     data(initializer_list<_Tp> __il) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:309:5: note:                 template<class _Tp, long unsigned int _Nm> constexpr _Tp* std::data(_Tp (&)[_Nm])
+     data(_Tp (&__array)[_Nm]) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:299:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(const _Container&)
+     data(const _Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:289:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(_Container&)
+     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+a.cpp:11:23: error: reference to ‘data’ is ambiguous
+         if(data[i]*2!=data[0])
+                       ^~~~
+a.cpp:3:16: note: candidates are: std::vector<double> data
+ vector<double> data;
+                ^~~~
+In file included from /usr/include/c++/7/string:51:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from a.cpp:1:
+/usr/include/c++/7/bits/range_access.h:318:5: note:                 template<class _Tp> constexpr const _Tp* std::data(std::initializer_list<_Tp>)
+     data(initializer_list<_Tp> __il) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:309:5: note:                 template<class _Tp, long unsigned int _Nm> constexpr _Tp* std::data(_Tp (&)[_Nm])
+     data(_Tp (&__array)[_Nm]) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:299:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(const _Container&)
+     data(const _Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:289:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(_Container&)
+     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+a.cpp: In function ‘int main()’:
+a.cpp:23:9: error: reference to ‘data’ is ambiguous
+         data.push_back(temp);
+         ^~~~
+a.cpp:3:16: note: candidates are: std::vector<double> data
+ vector<double> data;
+                ^~~~
+In file included from /usr/include/c++/7/string:51:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from a.cpp:1:
+/usr/include/c++/7/bits/range_access.h:318:5: note:                 template<class _Tp> constexpr const _Tp* std::data(std::initializer_list<_Tp>)
+     data(initializer_list<_Tp> __il) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:309:5: note:                 template<class _Tp, long unsigned int _Nm> constexpr _Tp* std::data(_Tp (&)[_Nm])
+     data(_Tp (&__array)[_Nm]) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:299:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(const _Container&)
+     data(const _Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:289:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(_Container&)
+     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+a.cpp:30:24: error: reference to ‘data’ is ambiguous
+         printf("%lf%c",data[i],((i==n-1)?'\n':' '));
+                        ^~~~
+a.cpp:3:16: note: candidates are: std::vector<double> data
+ vector<double> data;
+                ^~~~
+In file included from /usr/include/c++/7/string:51:0,
+                 from /usr/include/c++/7/bits/locale_classes.h:40,
+                 from /usr/include/c++/7/bits/ios_base.h:41,
+                 from /usr/include/c++/7/ios:42,
+                 from /usr/include/c++/7/istream:38,
+                 from /usr/include/c++/7/sstream:38,
+                 from /usr/include/c++/7/complex:45,
+                 from /usr/include/c++/7/ccomplex:39,
+                 from /usr/include/x86_64-linux-gnu/c++/7/bits/stdc++.h:52,
+                 from a.cpp:1:
+/usr/include/c++/7/bits/range_access.h:318:5: note:                 template<class _Tp> constexpr const _Tp* std::data(std::initializer_list<_Tp>)
+     data(initializer_list<_Tp> __il) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:309:5: note:                 template<class _Tp, long unsigned int _Nm> constexpr _Tp* std::data(_Tp (&)[_Nm])
+     data(_Tp (&__array)[_Nm]) noexcept
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:299:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(const _Container&)
+     data(const _Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+/usr/include/c++/7/bits/range_access.h:289:5: note:                 template<class _Container> constexpr decltype (__cont.data()) std::data(_Container&)
+     data(_Container& __cont) noexcept(noexcept(__cont.data()))
+     ^~~~
+a.cpp:18:10: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%lld",&n);
+     ~~~~~^~~~~~~~~~~
+a.cpp:22:14: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+         scanf("%lf",&temp);
+         ~~~~~^~~~~~~~~~~~~
