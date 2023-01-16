@@ -1,4 +1,3 @@
-//POJ - 1488
 #include <bits/stdc++.h>
 
 using i64 = long long;

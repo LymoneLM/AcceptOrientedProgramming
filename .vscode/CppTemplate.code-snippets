@@ -1,0 +1,39 @@
+{
+    "Basic Code": {
+        //"scope": "cpp,c",
+        "prefix": "cpp",
+        "body": [
+            "#include <bits/stdc++.h>",
+            "",
+            "using ll = long long;",
+            "$2",
+            "int main() {",
+            "    std::ios::sync_with_stdio(false);",
+            "    std::cin.tie(nullptr);",
+            "    ",
+            "    $1$0",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Cpp Basic Code"
+    },
+    "Common Include": {
+        "prefix": "include",
+        "body": [
+          "#include <cstdio>",
+          "#include <cstring>",
+          "#include <algorithm>",
+          "#include <iostream>",
+          "#include <string>",
+          "#include <vector>",
+          "#include <stack>",
+          "#include <cstdlib>",
+          "#include <cmath>",
+          "#include <set>",
+          "#include <list>",
+          "#include <map>"
+        ],
+        "description": "Common Cpp Include"
+      }
+}

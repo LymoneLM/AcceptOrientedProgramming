@@ -5,6 +5,7 @@
 #include <cstring>
 #include <cmath>
 #define MAXN 1000001
+
 using namespace std;
 
 const int p = 21788233;
