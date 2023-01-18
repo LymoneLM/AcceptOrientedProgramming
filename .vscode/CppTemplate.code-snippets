@@ -5,11 +5,12 @@
         "body": [
             "#include <bits/stdc++.h>",
             "",
+            "using namespace std;",
             "using ll = long long;",
             "$2",
             "int main() {",
-            "    std::ios::sync_with_stdio(false);",
-            "    std::cin.tie(nullptr);",
+            "    ios::sync_with_stdio(false);",
+            "    cin.tie(nullptr);",
             "    ",
             "    $1$0",
             "",
@@ -35,5 +36,28 @@
           "#include <map>"
         ],
         "description": "Common Cpp Include"
+      },
+      "POJ Only": {
+        "prefix": "poj",
+        "body": [
+          "#include <algorithm>",
+          "#include <cmath>",
+          "#include <cstdio>",
+          "#include <cstdlib>",
+          "#include <cstring>",
+          "#include <iostream>",
+          "#include <list>",
+          "#include <map>",
+          "#include <set>",
+          "#include <stack>",
+          "#include <string>",
+          "#include <vector>",
+          "$2",
+          "int main() {",
+          "    $1$0",
+          "    return 0;",
+          "}"
+        ],
+        "description": "POJ Only"
       }
 }
