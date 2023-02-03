@@ -12,10 +12,30 @@
                 "-g",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                /*"${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+                废案：因为g++不会自动去创建build文件夹
+                */
             ],
             "problemMatcher": [
                 "$gcc"
             ]
         }
+        /*预留的多文件联编，大概用不到
+        {
+            "type": "shell",
+            "label": "g++ multifile build",
+            "command": "C:\\Environment\\mingw64\\bin\\g++.exe",
+            "args": [//编译参数列表
+                "${fileDirname}\\*.cpp",
+                "-fexec-charset=GBK",
+                "-static-libgcc",
+                "-g",
+                "-o",
+                "${fileDirname}\\main.exe",
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }*/
     ]
 }
