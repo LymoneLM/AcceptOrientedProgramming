@@ -111,9 +111,9 @@
       "T times while": {
         "prefix": "T",
         "body": [
-          "int T;",
-          "cin>>T;",
-          "while(T--){",
+          "int ${1:T};",
+          "cin>>${1:T};",
+          "while(${1:T}--){",
           "    $0",
           "}"
         ],
