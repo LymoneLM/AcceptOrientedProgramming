@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#pragma GCC optimize(2)
+#pragma GCC optimize(3,"Ofast","inline")
 #define endl "\n"
 #define ll long long
 #define mm(a) memset(a,0,sizeof(a))
